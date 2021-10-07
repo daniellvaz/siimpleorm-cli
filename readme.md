@@ -1,6 +1,11 @@
-# Siimpleorm CLI
+<p align="center">
+  <img src="./logo.png">
+</p>
 
-An simple cli to Siimpleorm
+<hr>
+<br>
+
+## An simple cli to Siimpleorm
 
 <hr>
 <br>
