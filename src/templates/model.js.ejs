@@ -1,0 +1,11 @@
+const database = require('../database')
+
+module.exports = {
+  async up() {
+    await database.createTable('', true, [])
+  },
+
+  async down() {
+    await database.dropTable('')
+  }
+}
