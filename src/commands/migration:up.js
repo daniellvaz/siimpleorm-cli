@@ -4,6 +4,7 @@ const shell = require('shelljs')
 module.exports = {
   name: 'migration:up',
   alias: ['u'],
+  description: 'Create table',
   run: async toolbox => {
     const {
       print: { success, error },

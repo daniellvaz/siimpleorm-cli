@@ -4,6 +4,7 @@ const shell = require('shelljs')
 module.exports = {
   name: 'migration:up',
   alias: ['u'],
+  description: 'Run rollback table',
   run: async toolbox => {
     const {
       print: { success, error },

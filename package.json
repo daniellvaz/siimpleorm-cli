@@ -1,10 +1,21 @@
 {
-  "name": "mysimpleorm-cli",
-  "version": "0.0.1",
-  "description": "mysimpleorm-cli CLI",
-  "private": true,
+  "name": "siimpleorm",
+  "version": "1.0.1",
+  "description": "siimpleorm-cli",
+  "private": false,
+  "author": {
+    "name": "Daniel Murilo Vaz",
+    "email": "daniellmvaz@gmail.com",
+    "url": "https://www.daniellvaz.com"
+  },
+  "repository": {
+    "url": "https://github.com/daniellvaz/siimpleorm-cli"
+  },
+  "keywords": [
+    "cli", "orm", "database", "sql"
+  ],
   "bin": {
-    "mysimpleorm-cli": "bin/mysimpleorm-cli"
+    "siimpleorm-cli": "bin/siimpleorm-cli"
   },
   "scripts": {
     "format": "prettier --write **/*.{js,json} && standard --fix",

@@ -3,6 +3,7 @@ const { knex } = require('knex')
 module.exports = {
   name: 'migration:generate',
   alias: ['g'],
+  description: 'Create migrations',
   run: async toolbox => {
     const {
       parameters,

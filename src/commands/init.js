@@ -3,6 +3,7 @@ const { knex } = require('knex')
 module.exports = {
   name: 'init',
   alias: ['i'],
+  description: 'Create default configuration',
   run: async toolbox => {
     const {
       parameters,
